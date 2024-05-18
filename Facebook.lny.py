@@ -1,0 +1,99 @@
+Python 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+========================= RESTART: C:/Users/safib/21.py ========================
+Please enter the account ID to report: https://www.facebook.com/asmail.mohmad.777
+Traceback (most recent call last):
+  File "C:/Users/safib/21.py", line 37, in <module>
+    send_report(account_id, reason)
+  File "C:/Users/safib/21.py", line 25, in send_report
+    response = requests.post(report_url, data=payload, headers=headers)
+  File "C:\Users\safib\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\safib\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\safib\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\safib\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\safib\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "C:\Users\safib\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\safib\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\safib\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1303, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1344, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\safib\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\urllib3\connection.py", line 224, in putheader
+    _HTTPConnection.putheader(self, header, *values)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1276, in putheader
+    values[i] = one_value.encode('latin-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 69-71: ordinal not in range(256)
+
+========================= RESTART: C:/Users/safib/33.py ========================
+يرجى إدخال معرف الحساب للإبلاغ: https://www.facebook.com/asmail.mohmad.777
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
+الانتظار للإبلاغ التالي...
+تم الإبلاغ عن الحساب https://www.facebook.com/asmail.mohmad.777 بنجاح
